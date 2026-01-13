@@ -1,0 +1,116 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1:#0D2520;
+    --cor2:#18433B;
+    --cor3:#225F54;
+    --cor4:#2C7B6D;
+    --cor5:#379886;
+    --cor6:#42B6A1;
+    --cor7:#4BD1B9;
+
+    /*#52F2D2*/
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--cor7);
+}
+
+main{
+    width: 300px;
+    height: 500px;
+    
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+}
+
+#imagem{
+    height: 200px;
+    background-image: url(../img/tela-login2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, top;
+    border-radius: 13px 13px 0px 0px;
+    
+}
+
+#formulario h1{
+     text-align: center;
+     margin:20px 0px;
+     color: var(--cor4);
+     text-shadow: 1px 1px 3px var(--cor4);
+}
+
+#formulario {
+    text-align: center;
+}
+
+.email{
+    width: 80%;
+    height: 25px;
+    margin: 10px 0px;
+    background-color: var(--cor6);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+}
+
+.password{
+    width: 80%;
+    height: 25px;
+    margin: 10px 0px;
+    background-color: var(--cor6);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+}
+
+input:hover{
+    background-color: var(--cor1);
+}
+
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+i{
+    transform: translate(-25px, 2px);
+    color: white;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 20px 20px;
+
+}
+
+label{
+    color: var(--cor3);
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+a:hover{
+    text-decoration: underline;
+}
