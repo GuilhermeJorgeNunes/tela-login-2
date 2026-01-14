@@ -1,0 +1,63 @@
+@charset 'UTF-8';
+
+
+
+@media screen and (min-width:650px) and (max-width:992px){
+
+
+    :root{
+    --cor1:#0D2520;
+    --cor2:#18433B;
+    --cor3:#225F54;
+    --cor4:#2C7B6D;
+    --cor5:#379886;
+    --cor6:#42B6A1;
+    --cor7:#4BD1B9;
+
+    /*#52F2D2*/
+}
+
+
+
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    
+
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, var(--cor2), var(--cor7));
+    }
+
+    main{
+    width: 600px;
+    height: 400px;
+    }
+
+    section{
+        display: flex;
+    
+    }
+
+    #imagem{
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/tela-login2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 13px 0px 0px 13px;
+    
+    }
+
+    #formulario{
+        margin-top: 40px;
+    }
+}
+
+
