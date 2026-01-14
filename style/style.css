@@ -90,6 +90,25 @@ input:hover{
     text-align: center;
 }
 
+button{
+    width: 80px;
+    height: 25px;
+    margin: 10px 0px;
+    background-color: var(--cor6);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+button:hover{
+    background-color: var(--cor1);
+    
+}
+
 i{
     transform: translate(-25px, 2px);
     color: white;
