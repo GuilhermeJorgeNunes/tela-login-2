@@ -32,11 +32,109 @@
     align-items: center;
     height: 100vh;
     background-image: linear-gradient(to top, var(--cor2), var(--cor7));
+
     }
 
     main{
     width: 600px;
     height: 400px;
+    }
+
+    section{
+        display: flex;
+    
+    }
+
+    #imagem{
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/tela-login2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 13px 0px 0px 13px;
+    
+    }
+
+    #formulario{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+        :root{
+    --cor1:#0D2520;
+    --cor2:#18433B;
+    --cor3:#225F54;
+    --cor4:#2C7B6D;
+    --cor5:#379886;
+    --cor6:#42B6A1;
+    --cor7:#4BD1B9;
+
+    /*#52F2D2*/
+}
+    
+
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor7));
+    overflow: hidden;
+    position: relative
+    }
+
+    .circle1{
+        width: 550px;
+        height: 550px;
+        transform:translate(-500px, -80px);
+        position: left;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-color: var(--cor4);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+
+    .circle2{
+        width: 250px;
+        height: 250px;
+        transform: translate(400px, -400px);
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-color: var(--cor5);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+    
+    .circle3{
+        width: 250px;
+        height: 250px;
+        transform: translate(0px, 400px);
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-color: var(--cor3);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .circle4{
+        width: 150px;
+        height: 150px;
+        transform: translate(200px, 0px);
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-color: var(--cor3);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    main{
+    width: 600px;
+    height: 400px;
+    min-width: 600px;
+    position: absolute;
     }
 
     section{
